@@ -4,23 +4,26 @@ title: "Projects"
 permalink: /projects/
 ---
 
-## Large-scale Indoor 3D Reconstruction from 360° Images
+Projects are grouped into work I am actively pursuing and work that represents earlier phases.
 
-- **Problem.** Reconstruct large-scale indoor environments for virtual tours using 360° imagery.
-- **Method.** Multi-view geometry with panoramic image alignment and learned depth estimation.
-- **My role.** Designed reconstruction pipeline including camera pose refinement and depth fusion.
-- **Focus.** Robustness to sparse views and scalable processing.
+{% assign project_docs = site.projects | sort: "date" | reverse %}
 
-## Audio-driven Facial Animation Synthesis
+## Current Projects
 
-- **Problem.** Generate realistic facial animations from raw audio signals.
-- **Method.** Deep learning–based audio-to-expression mapping with temporal modeling.
-- **My role.** Designed model architecture and training strategy for lip-sync and expression control.
-- **Focus.** Temporal coherence and cross-modal alignment.
+{% for post in project_docs %}
+{% if post.status == "current" %}
+### [{{ post.title }}]({% if post.link %}{{ post.link }}{% else %}{{ post.url | relative_url }}{% endif %})
 
-## Visual SLAM for AR Glasses
+{{ post.excerpt }}
+{% endif %}
+{% endfor %}
 
-- **Problem.** Enable real-time tracking and mapping on resource-constrained AR devices.
-- **Method.** Visual-inertial SLAM with optimized tracking and mapping modules.
-- **My role.** Developed core tracking and mapping components with real-time constraints.
-- **Focus.** Robustness and efficiency on embedded platforms.
+## Past Projects
+
+{% for post in project_docs %}
+{% if post.status == "past" %}
+### [{{ post.title }}]({% if post.link %}{{ post.link }}{% else %}{{ post.url | relative_url }}{% endif %})
+
+{{ post.excerpt }}
+{% endif %}
+{% endfor %}
