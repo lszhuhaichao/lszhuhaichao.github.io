@@ -37,7 +37,7 @@ I am especially interested in projects that connect 3D perception with LLMs, mul
 
 A current research project on calibrating noisy IMU gravity priors from a single RGB image for downstream VIO, SLAM, and visual localization systems.
 
-### [360 SLAM](/projects/slam-360/)
+### [360° SLAM](/projects/slam-360/)
 
 A panoramic SLAM system for mapping and localization using 360-degree imagery with robust loop closure and global consistency.
 

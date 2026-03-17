@@ -5,6 +5,8 @@ date: 2026-02-28
 status: current
 ---
 
+{% include video id="bSFILPDTdBk" provider="youtube" %}
+
 ## Problem
 
 Gravity estimation is a core ingredient in VIO, SLAM, visual localization, AR, and robotics, but IMU-derived gravity priors often become unreliable under linear acceleration, vibration, drift, and transient motion.

@@ -1,23 +1,9 @@
 ---
-title: "360 SLAM"
+title: "360° SLAM"
 excerpt: "A panoramic SLAM system for mapping and localization using 360-degree imagery with robust loop closure and global consistency."
 date: 2026-03-01
 status: current
 ---
-
-## Problem
-
-Build a SLAM system that can use 360-degree imagery for mapping and localization across a wide range of environments, especially where large fields of view and long trajectories matter.
-
-## Method
-
-The project uses a panoramic SLAM pipeline with feature extraction and matching on 360 imagery, pose graph optimization, loop closure detection, and global refinement to maintain consistent maps over large-scale scenes.
-
-## My Role
-
-I worked on the core geometry and optimization pipeline, including robust pose estimation, loop closure handling, and improving map consistency across long sequences.
-
-## Demo Video
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe
@@ -29,6 +15,14 @@ I worked on the core geometry and optimization pipeline, including robust pose e
     allowfullscreen>
   </iframe>
 </div>
+
+## Problem
+
+Build a SLAM system that can use 360-degree imagery for mapping and localization across a wide range of environments, especially where large fields of view and long trajectories matter.
+
+## Method
+
+The project uses a panoramic SLAM pipeline with feature extraction and matching on 360 imagery, pose graph optimization, loop closure detection, and global refinement to maintain consistent maps over large-scale scenes.
 
 ## Focus
 
