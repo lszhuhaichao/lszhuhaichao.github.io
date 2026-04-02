@@ -239,6 +239,13 @@ collections:
     output: true
     permalink: /notes/:title/
 
+defaults:
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: single
+
 
 # Pagination with jekyll-paginate
 paginate: 5 # amount of posts to show
