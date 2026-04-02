@@ -3,6 +3,7 @@ title: "Why Maintainability Benchmarks Matter for Coding Agents"
 excerpt: "Functional correctness alone misses whether an agent's changes remain local, reusable, testable, and structurally coherent inside a real codebase."
 date: 2026-04-02
 layout: single
+show_date: false
 ---
 
 This note outlines why maintainability-oriented evaluation matters for coding agents and why benchmarks such as [NITR](/projects/nitr/) are useful complements to patch-level correctness metrics.
