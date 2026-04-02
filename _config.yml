@@ -235,6 +235,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  notes:
+    output: true
+    permalink: /notes/:title/
 
 
 # Pagination with jekyll-paginate
