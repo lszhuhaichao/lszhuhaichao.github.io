@@ -1,6 +1,6 @@
 ---
-title: "NITR: Needle in the Repo"
-excerpt: "A benchmark for evaluating coding agents on maintainability-oriented software engineering tasks with interpretable, dimension-level diagnosis."
+title: "Dataset to Evaluate Coding Agents on Maintainability"
+excerpt: "A benchmark and dataset for evaluating coding agents on maintainability-oriented software engineering tasks with interpretable, dimension-level diagnosis."
 date: 2026-04-01
 status: current
 ---
