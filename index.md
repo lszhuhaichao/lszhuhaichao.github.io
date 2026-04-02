@@ -33,6 +33,10 @@ I am especially interested in projects that connect 3D perception with LLMs, mul
 
 ## Featured Projects
 
+### [NITR: Needle in the Repo](/projects/nitr/)
+
+A benchmark for evaluating coding agents on maintainability-oriented software engineering tasks with interpretable, dimension-level diagnosis.
+
 ### [Image Based Gravity Estimation for VIO/SLAM](/projects/image-based-gravity-estimation-vio-slam/)
 
 A current research project on calibrating noisy IMU gravity priors from a single RGB image for downstream VIO, SLAM, and visual localization systems.
